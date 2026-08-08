@@ -1,0 +1,83 @@
+
+# Translation configuration author
+author: _AKRGames_
+
+special:
+  water_bucket: "&eПеревір свій інвентар.. У тебе є &9відро води&f!"
+
+custom_items:
+  item_not_found: "&cПредмет для індентифікатора %identifier% не знайдено"
+  list: "&7[&eLuckyBlock&7] &fСписок предметів:"
+  
+  magic_wool: "&6&l&oМагічна вовна"
+  sword_of_justice: "&6&l&oМеч правосуддя"
+  axe_of_perun: "&6&l&oСокира Перуна"
+  chilly_pants: "&6&l&oХолодні штани"
+  rage_armor: "&6&l&oШалена броня" # ( Rage armor )
+  carrot_corrupter: "&6&l&oМоркв`яний винищувач"
+  mystery_meat: "&6&l&oТаємне м`ясо"
+  wither_blast_rod: "&6&l&oСтержень в`янення" # ( Wither blast rod )
+
+craft:
+  allowed_one_layer: "&cКрафт можливий тільки з використанням кожного інгредієнта у одиночній кількості для окремого слота"
+
+system:
+  loading_config: "&fЗавантаження конфігурації... "
+  reloaded_config: "&aКонфігурація була перезавантажена, завантажено %amount% типів лакі-блоків..."
+
+  world_not_found: "&cСвіт %world% не знайдено"
+  lb_placed: "&fЛакі-блок &e%type%&f встановлено на &e%location%"
+
+  lb_not_found: "&cЛакі-блок &e%lb%&c не знайдено, пропускаємо... "
+  lb_loading_exception: "&cЛакі-блок &e%lb%&c не може бути завантаженим... Помилка: &e%exception%"
+  lb_unknown_exception: "&cЛакі-блок &e%lb%&c не знайдено або виникла невідома помилка, пропускаємо... "
+  lb_loaded_zero: "&fЗавантажено 0 типів лакі-блоків... Ти дурний чи так?..."
+  lb_loaded_not_zero: "&fзавантажено &e%amount%&f типів лакі-блоків..."
+  
+  cant_use_command: "&cВибач, але ти не можеш використовувати підкоманди."
+  cant_use_subcommand: "&cВибач, але ти не можеш використовувати цю команду."
+  cant_interact_world: "&cВибач, але ти не можеш взаємодіяти з лакі-блоком в світі &e%world%"
+  
+  cant_break_color: "&cВибач, але ти не можеш ламати лакі-блоки типу &e%lb%"
+  
+  cmd_lb_disabled: "&cЛакі-блок типу &e%lb%&c вимкнений :("
+  cmd_lb_not_found: "&cЛакі-блок типу &e%lb%&c не знайдено :("
+  cmd_lb_received: "&aОтримано %amount% лакі-блоків &7(%lb% &7колір)"
+  cmd_ci_received: "&aОтримано %item%"
+  cmd_destroyed_lb: "&cЗламано &e%amount% &cлакі-блоків"
+  cmd_lb_give: "&aВидано %amount% лакі-блоків &7(%lb% &7колір)"
+  
+  cmd:
+    help_title: "&eLuckyBlock &fдопомга по командах:"
+    get: "&8 > &e/%label% get <колір> [кількість] &f- отримати лакі-блок"
+    give: "&8 > &e/%label% give <нікнейм> <колір> [кількість] &f- видати лакі-блок"
+    gui: "&8 > &e/%label% gui <get/edit> &f- відкрити GUI"
+    list: "&8 > &e/%label% list &f- список типів лакі-блоків"
+    reload: "&8 > &e/%label% reload &f- перезавантаження конфігурацій"
+    checkforupdates: "&8 > &e/%label% checkforupdates &f- перевірка оновлень"
+    support: "&8 > &e/%label% support &f- отримати контакти автора"
+    iteminfo: "&8 > &6/%label% iteminfo &f- Інформація про предмет в руці"
+    getcustomitem: "&8 > &6/%label% getcustomitem <id> &f- Отримати предмет"
+    customitemslist: "&8 > &6/%label% customitemslist &f- Список предметів"
+    destroy: "&8 > &6/%label% destroy <radius/chunk/(<xyz> [xyz] [world])> [-all] &f- Зламати лб"
+    place: "&8 > &e/%label% place [світ] <x> <y> <z> <тип> &f- встановити лакі-блок"
+    generate: "&8 > &e/%label% generate <тип> <генератор> <хв.> <макс> &f- генерація дропу"
+    generateFull: "Цією командою можливо згенерувати дроп для лакі-блоків. <тип> - LuckyBlockType, який буде згенерований. <генератор> - LB генератор (Використовуй `latest`). <хв.> - мінімальна кількість колекцій дропа. <макс> - максимальна кількість колекцій дропа"
+
+  cmd_player_not_found: "&cГравеця &e%player%&c не знайдено :("
+  cmd_no_perm_to_color: "&cНедостаньо прав для кольору %lb%"
+  
+gui:
+  exit: "&7[ &6Покинути меню &7]"
+  get:
+    title: "&bОтримати лакі-блок &4&l:D"
+    no_money: "&cПотрібно ще &e%eco% &cмонет"
+    success: "&aУспішно придбано &e%amount% &aлакі-блоків за &e%eco%"
+  count:
+    title: "&bОбери кількість &4&l:D"
+    remove: "&bПрибрати %offset%"
+    add: "&bДодати %offset%"
+    back: "&3Назад"
+    confirm: "&eПідтвердити"
+    get: "&fТи отримаєш: &6%amount%"
+    give: "&fТи віддасиш: &c%price%"

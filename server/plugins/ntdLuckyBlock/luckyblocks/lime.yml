@@ -1,0 +1,113 @@
+texture: b03f5a9bc719cd1127be0954c73cd5714ecd478dad880ef2b9979c481097e6be
+name: '&aLime LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : PIG : 1'
+  - 'ITEM : WHITE_HARNESS : 1 : 0'
+  '1':
+  - 'ENTITY : TROPICAL_FISH : 4'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  '2':
+  - 'ITEM : DARK_OAK_CHEST_BOAT : 1 : 0'
+  '3':
+  - 'ENTITY : SQUID : 3'
+  - 'ENTITY : ZOMBIE_VILLAGER : 4'
+  '4':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'SPECIAL : PIG : 4'
+  - 'ITEM : LIME_BANNER : 16 : 0'
+  '5':
+  - 'ENTITY : CHERRY_BOAT : 2'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : WARPED_STEM : 64 : 0'
+  '6':
+  - 'ENTITY : MOOSHROOM : 3'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 3'
+  - 'ENTITY : OAK_CHEST_BOAT : 1'
+  '7':
+  - 'ITEM : MANGROVE_SLAB : 64 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '8':
+  - 'ITEM : WOODEN_HOE : 1 : 0'
+  - 'ENTITY : ARMOR_STAND : 1'
+  '9':
+  - 'ITEM : AZALEA : 32 : 0'
+  - 'ENTITY : EGG : 3'
+  - 'ITEM : DEEPSLATE_TILES : 8 : 0'
+  '10':
+  - 'ENTITY : OAK_CHEST_BOAT : 3'
+  - 'ITEM : LECTERN : 16 : 0'
+  '11':
+  - 'ITEM : EXPOSED_COPPER_CHEST : 16 : 0'
+  - 'ENTITY : SPRUCE_BOAT : 2'
+  '12':
+  - 'ENTITY : HOPPER_MINECART : 3'
+  - 'ITEM : WHITE_DYE : 48 : 0'
+  '13':
+  - 'ENTITY : VEX : 3'
+  - 'ITEM : EMERALD_ORE : 8 : 0'
+  - 'ITEM : PILLAGER_SPAWN_EGG : 2 : 0'
+  - 'ITEM : COMPOSTER : 8 : 0'
+  '14':
+  - 'ITEM : CINNABAR : 16 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : WHITE_CONCRETE_POWDER : 8 : 0'
+  - 'ENTITY : WARDEN : 1'
+  '15':
+  - 'ENTITY : TNT_MINECART : 4'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ENTITY : ACACIA_CHEST_BOAT : 4'
+  '16':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '17':
+  - 'ITEM : WAXED_OXIDIZED_COPPER : 32 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : OAK_PRESSURE_PLATE : 32 : 0'
+  '18':
+  - 'LUCKY_BLOCK_ITEM : ICED : 1'
+  - 'ENTITY : GUARDIAN : 3'
+  '19':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 3'
+  - 'ENTITY : HAPPY_GHAST : 3'
+  - 'ITEM : WARPED_SHELF : 8 : 0'
+  - 'ENTITY : TEXT_DISPLAY : 1'
+  '20':
+  - 'ENTITY : OAK_BOAT : 4'
+  - 'ITEM : BLACKSTONE_WALL : 16 : 0'
+  '21':
+  - 'ENTITY : GLOW_SQUID : 3'
+  '22':
+  - 'ITEM : BUBBLE_CORAL : 16 : 0'
+  '23':
+  - 'ENTITY : BAMBOO_RAFT : 2'
+  - 'ITEM : COPPER_DOOR : 16 : 0'
+  '24':
+  - 'ITEM : WAXED_EXPOSED_COPPER : 64 : 0'
+  - 'ITEM : RAISER_ARMOR_TRIM_SMITHING_TEMPLATE : 42 : 0'
+  - 'ITEM : TERRACOTTA : 64 : 0'
+  '25':
+  - 'ENTITY : OAK_BOAT : 4'
+  - 'ITEM : FLINT : 9 : 0'
+  - 'ENTITY : OAK_CHEST_BOAT : 2'
+  - 'ENTITY : BAMBOO_RAFT : 3'
+  '26':
+  - 'ITEM : PIGLIN_HEAD : 16 : 0'
+  - 'ENTITY : EVOKER_FANGS : 4'
+  '27':
+  - 'ITEM : LIGHT_BLUE_STAINED_GLASS : 16 : 0'
+  - 'ENTITY : CREAKING : 4'
+  '28':
+  - 'ITEM : POTION : 1 : 0'
+  '29':
+  - 'ENTITY : SULFUR_CUBE : 1'
+  - 'ENTITY : SLIME : 1'
+eco: true

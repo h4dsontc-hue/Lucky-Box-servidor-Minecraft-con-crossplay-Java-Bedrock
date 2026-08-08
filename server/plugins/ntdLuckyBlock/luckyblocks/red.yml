@@ -1,0 +1,96 @@
+texture: 29942dd1338abeae8b8274a41ae1dcdf2b7be449f28d6b650ec06e491e70f570
+name: '&4Red LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : GOLDEN_SWORD : 1 : 0'
+  - 'ENTITY : DARK_OAK_CHEST_BOAT : 3'
+  - 'ENTITY : TNT : 1'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : BLUE : 1'
+  - 'LUCKY_BLOCK_ITEM : BROWN : 3'
+  - 'ITEM : BLUE_DYE : 6 : 0'
+  '2':
+  - 'ITEM : BIRCH_CHEST_BOAT : 1 : 0'
+  - 'ITEM : BROWN_STAINED_GLASS_PANE : 32 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '3':
+  - 'LUCKY_BLOCK_ITEM : LIME : 2'
+  - 'SPECIAL : PIG : 5'
+  - 'ENTITY : LEASH_KNOT : 2'
+  - 'ENTITY : LLAMA : 1'
+  '4':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 3'
+  '5':
+  - 'ITEM : SHROOMLIGHT : 32 : 0'
+  - 'ITEM : SHEEP_SPAWN_EGG : 41 : 0'
+  - 'ENTITY : ARMOR_STAND : 1'
+  '6':
+  - 'ENTITY : SPLASH_POTION : 4'
+  '7':
+  - 'ITEM : TRIDENT : 1 : 0'
+  '8':
+  - 'ITEM : COPPER_HOE : 1 : 0'
+  - 'ITEM : LAVA_BUCKET : 1 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '9':
+  - 'ENTITY : HORSE : 1'
+  - 'ITEM : STONE_SWORD : 1 : 0'
+  - 'ENTITY : GLOW_ITEM_FRAME : 4'
+  '10':
+  - 'LUCKY_BLOCK_ITEM : PINK : 4'
+  - 'ITEM : SHULKER_SPAWN_EGG : 20 : 0'
+  - 'SPECIAL : PIG : 4'
+  '11':
+  - 'ITEM : EXPOSED_CUT_COPPER_SLAB : 32 : 0'
+  '12':
+  - 'ITEM : CRAFTER : 8 : 0'
+  - 'ENTITY : CHERRY_BOAT : 3'
+  - 'ITEM : COPPER_TRAPDOOR : 16 : 0'
+  '13':
+  - 'ITEM : CAT_SPAWN_EGG : 18 : 0'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  - 'ITEM : FLOWERING_AZALEA_LEAVES : 64 : 0'
+  '14':
+  - 'ENTITY : WARDEN : 4'
+  '15':
+  - 'ITEM : BAMBOO_BLOCK : 64 : 0'
+  - 'ITEM : CHICKEN_SPAWN_EGG : 54 : 0'
+  '16':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 4'
+  - 'ENTITY : HAPPY_GHAST : 3'
+  - 'ENTITY : HORSE : 2'
+  - 'ITEM : WAXED_COPPER_BARS : 32 : 0'
+  '17':
+  - 'ENTITY : PANDA : 4'
+  - 'ENTITY : STRAY : 4'
+  - 'ITEM : CAMEL_SPAWN_EGG : 34 : 0'
+  '18':
+  - 'ITEM : GOLDEN_CHESTPLATE : 1 : 0'
+  '19':
+  - 'ITEM : WITCH_SPAWN_EGG : 56 : 0'
+  - 'ITEM : CHERRY_SHELF : 64 : 0'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : GREEN : 2'
+  - 'ENTITY : COMMAND_BLOCK_MINECART : 2'
+  - 'ITEM : OPEN_EYEBLOSSOM : 16 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '21':
+  - 'ITEM : TUFF_BRICK_SLAB : 8 : 0'
+  - 'ITEM : WAXED_CUT_COPPER_SLAB : 32 : 0'
+  - 'ITEM : JUKEBOX : 32 : 0'
+  '22':
+  - 'ENTITY : ELDER_GUARDIAN : 3'
+  '23':
+  - 'ITEM : TERRACOTTA : 32 : 0'
+  - 'ITEM : GLOW_LICHEN : 8 : 0'
+  - 'LUCKY_BLOCK_ITEM : GREEN : 2'
+eco: true

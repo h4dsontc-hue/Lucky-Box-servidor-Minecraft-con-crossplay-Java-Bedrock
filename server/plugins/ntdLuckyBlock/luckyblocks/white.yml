@@ -1,0 +1,87 @@
+texture: c8e16e7ff13d3e30a3a2b835a86fd05ecbc08909f6056de1646fe25b3def9584
+name: '&fWhite LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : NETHERITE_PICKAXE : 1 : 0'
+  - 'ITEM : STRIPPED_WARPED_HYPHAE : 8 : 0'
+  '1':
+  - 'ITEM : TRIAL_SPAWNER : 8 : 0'
+  '2':
+  - 'ENTITY : PIG : 3'
+  - 'ITEM : WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE : 33 : 0'
+  '3':
+  - 'ENTITY : MOOSHROOM : 4'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ENTITY : VINDICATOR : 2'
+  '4':
+  - 'ENTITY : TADPOLE : 3'
+  - 'ITEM : COPPER_NUGGET : 15 : 0'
+  - 'ENTITY : ENDER_DRAGON : 4'
+  '5':
+  - 'ITEM : VEX_ARMOR_TRIM_SMITHING_TEMPLATE : 50 : 0'
+  - 'ITEM : CRIMSON_HANGING_SIGN : 16 : 0'
+  - 'ENTITY : ZOMBIE_VILLAGER : 2'
+  '6':
+  - 'LUCKY_BLOCK_ITEM : BLACK : 3'
+  - 'ITEM : SKELETON_SPAWN_EGG : 37 : 0'
+  '7':
+  - 'LUCKY_BLOCK_ITEM : CYAN : 1'
+  - 'ENTITY : ENDER_PEARL : 2'
+  '8':
+  - 'ENTITY : LINGERING_POTION : 2'
+  - 'ITEM : GRAY_DYE : 61 : 0'
+  '9':
+  - 'ITEM : ACACIA_BOAT : 1 : 0'
+  '10':
+  - 'ENTITY : SPAWNER_MINECART : 2'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '11':
+  - 'ENTITY : CAT : 4'
+  - 'ITEM : SPIDER_EYE : 3 : 0'
+  '12':
+  - 'ITEM : RABBIT_SPAWN_EGG : 58 : 0'
+  - 'ITEM : PINK_BANNER : 16 : 0'
+  - 'SPECIAL : PIG : 12'
+  '13':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ENTITY : WITCH : 3'
+  '14':
+  - 'ITEM : HEART_OF_THE_SEA : 28 : 0'
+  - 'ENTITY : SPECTRAL_ARROW : 1'
+  - 'ITEM : NETHERITE_HELMET : 1 : 0'
+  '15':
+  - 'ITEM : COPPER_HOE : 1 : 0'
+  - 'ITEM : PURPLE_HARNESS : 1 : 0'
+  '16':
+  - 'ITEM : INFESTED_CHISELED_STONE_BRICKS : 32 : 0'
+  - 'ITEM : PRISMARINE_SLAB : 8 : 0'
+  - 'ITEM : BAMBOO_SHELF : 16 : 0'
+  '17':
+  - 'ITEM : RESIN_BLOCK : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  - 'ENTITY : SHULKER_BULLET : 4'
+  - 'ITEM : ARCHER_POTTERY_SHERD : 27 : 0'
+  '18':
+  - 'ENTITY : DOLPHIN : 2'
+  '19':
+  - 'ITEM : BROWN_SHULKER_BOX : 1 : 0'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : PINK : 2'
+  '21':
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  - 'ITEM : GOLDEN_HOE : 1 : 0'
+  '22':
+  - 'ITEM : TROPICAL_FISH : 18 : 0'
+  - 'ENTITY : COMMAND_BLOCK_MINECART : 3'
+  - 'ENTITY : CHERRY_BOAT : 3'
+eco: true

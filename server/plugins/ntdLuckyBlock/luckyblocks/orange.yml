@@ -1,0 +1,106 @@
+texture: bd3a1436e0fd5f3e4d113a092c1d07a12e22d426c50183ccd62877d9cd885fbd
+name: '&6Orange LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : SHEEP : 4'
+  - 'ENTITY : BLAZE : 1'
+  '1':
+  - 'ENTITY : DRAGON_FIREBALL : 3'
+  - 'ITEM : IRON_AXE : 1 : 0'
+  '2':
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  - 'ITEM : EXPOSED_COPPER_TRAPDOOR : 32 : 0'
+  '3':
+  - 'ENTITY : MINECART : 1'
+  - 'ENTITY : WIND_CHARGE : 1'
+  '4':
+  - 'ITEM : GRAY_CONCRETE : 64 : 0'
+  - 'ITEM : CHERRY_PLANKS : 32 : 0'
+  - 'SPECIAL : LIGHTNING : 3'
+  '5':
+  - 'ENTITY : BEE : 2'
+  - 'ENTITY : BAT : 4'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '6':
+  - 'ITEM : WAXED_EXPOSED_LIGHTNING_ROD : 16 : 0'
+  - 'ENTITY : AREA_EFFECT_CLOUD : 2'
+  - 'ITEM : MAGENTA_STAINED_GLASS_PANE : 64 : 0'
+  - 'ITEM : SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE : 19 : 0'
+  '7':
+  - 'SPECIAL : PIG : 17'
+  '8':
+  - 'ITEM : POLISHED_BLACKSTONE_WALL : 8 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '9':
+  - 'ENTITY : BIRCH_BOAT : 1'
+  - 'ENTITY : SALMON : 4'
+  - 'ITEM : ACTIVATOR_RAIL : 16 : 0'
+  '10':
+  - 'ENTITY : PALE_OAK_BOAT : 1'
+  - 'ENTITY : AREA_EFFECT_CLOUD : 3'
+  '11':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ENTITY : SALMON : 3'
+  - 'ITEM : NETHER_BRICK_SLAB : 8 : 0'
+  '12':
+  - 'ENTITY : PAINTING : 2'
+  - 'ITEM : DIAMOND_BLOCK : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  '13':
+  - 'ITEM : WAXED_COPPER_DOOR : 8 : 0'
+  '14':
+  - 'ENTITY : SQUID : 3'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '15':
+  - 'ITEM : JUNGLE_LEAVES : 16 : 0'
+  '16':
+  - 'ITEM : MANGROVE_PROPAGULE : 16 : 0'
+  - 'ITEM : SALMON_BUCKET : 1 : 0'
+  - 'ENTITY : BAMBOO_RAFT : 4'
+  - 'ITEM : PALE_OAK_FENCE_GATE : 32 : 0'
+  '17':
+  - 'ITEM : CHISELED_BOOKSHELF : 8 : 0'
+  - 'ITEM : BLACK_BED : 1 : 0'
+  - 'ITEM : ACACIA_CHEST_BOAT : 1 : 0'
+  '18':
+  - 'ITEM : WHITE_CONCRETE_POWDER : 64 : 0'
+  - 'ITEM : BAMBOO_PRESSURE_PLATE : 64 : 0'
+  '19':
+  - 'ENTITY : TRIDENT : 3'
+  - 'ENTITY : TEXT_DISPLAY : 1'
+  - 'ENTITY : TNT : 4'
+  '20':
+  - 'ITEM : DIAMOND_NAUTILUS_ARMOR : 1 : 0'
+  - 'ENTITY : WIND_CHARGE : 2'
+  - 'ITEM : SPIDER_SPAWN_EGG : 35 : 0'
+  '21':
+  - 'ENTITY : COW : 4'
+  '22':
+  - 'ENTITY : RAVAGER : 1'
+  - 'ITEM : CRIMSON_ROOTS : 32 : 0'
+  '23':
+  - 'ENTITY : HOGLIN : 2'
+  '24':
+  - 'ENTITY : SNOW_GOLEM : 1'
+  '25':
+  - 'ITEM : MOSSY_COBBLESTONE_SLAB : 32 : 0'
+  - 'ITEM : BLACK_CANDLE : 32 : 0'
+  '26':
+  - 'ENTITY : IRON_GOLEM : 2'
+  - 'ITEM : BAMBOO_TRAPDOOR : 16 : 0'
+  '27':
+  - 'ITEM : MAGENTA_STAINED_GLASS : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : TINTED : 1'
+  - 'ENTITY : JUNGLE_CHEST_BOAT : 1'
+  '28':
+  - 'ITEM : MAGMA_CUBE_SPAWN_EGG : 27 : 0'
+eco: true

@@ -1,0 +1,24 @@
+texture: c7b187e38b407feabaf190879d98a67f4c7052f3201f72e44571f537ea89d4c7
+
+name: '&0Black LuckyBlock'
+lore:
+- '&7Place me :D'
+
+shop: true
+price: 250
+
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+
+drop:
+  '0':
+  - 'SCHEMATIC : bedrock_problem : BLOCK'
+  '1':
+  - 'SCHEMATIC : cage_lava : PLAYER'
+  '2':
+  - 'SCHEMATIC : small_temple : BLOCK : true'
+
+craft:
+  default: true
+  custom: false
+eco: true

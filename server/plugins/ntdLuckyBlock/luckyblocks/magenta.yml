@@ -1,0 +1,159 @@
+texture: 1f23685c697ba55edda425ecf1fec72feeb7bb985c6506b2cef070515e4e5492
+name: '&dMagenta LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : FROG : 1'
+  '1':
+  - 'ENTITY : STRIDER : 3'
+  '2':
+  - 'ITEM : MOSSY_STONE_BRICKS : 32 : 0'
+  '3':
+  - 'ENTITY : END_CRYSTAL : 3'
+  - 'ENTITY : ARROW : 1'
+  '4':
+  - 'ENTITY : HORSE : 3'
+  - 'LUCKY_BLOCK_ITEM : GREEN : 3'
+  '5':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : STRIPPED_CHERRY_LOG : 32 : 0'
+  - 'ITEM : SMOOTH_BASALT : 8 : 0'
+  '6':
+  - 'ITEM : PRISMARINE_CRYSTALS : 30 : 0'
+  - 'ENTITY : PANDA : 1'
+  '7':
+  - 'LUCKY_BLOCK_ITEM : ICED : 1'
+  - 'ITEM : ELYTRA : 1 : 0'
+  '8':
+  - 'ITEM : DUNE_ARMOR_TRIM_SMITHING_TEMPLATE : 3 : 0'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : SOUL_SOIL : 16 : 0'
+  '9':
+  - 'ENTITY : BIRCH_CHEST_BOAT : 4'
+  - 'ENTITY : BLAZE : 1'
+  '10':
+  - 'ITEM : PURPUR_SLAB : 32 : 0'
+  - 'ITEM : NOTE_BLOCK : 8 : 0'
+  - 'ITEM : LIME_BED : 1 : 0'
+  '11':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ITEM : COPPER_GOLEM_STATUE : 16 : 0'
+  '12':
+  - 'ITEM : SPRUCE_PRESSURE_PLATE : 16 : 0'
+  - 'ITEM : COPPER_PICKAXE : 1 : 0'
+  - 'ENTITY : SKELETON : 1'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '13':
+  - 'ITEM : MANGROVE_PROPAGULE : 8 : 0'
+  - 'ITEM : LIME_DYE : 27 : 0'
+  - 'LUCKY_BLOCK_ITEM : ORANGE : 2'
+  - 'ITEM : RED_CONCRETE_POWDER : 16 : 0'
+  '14':
+  - 'ENTITY : PALE_OAK_CHEST_BOAT : 4'
+  - 'ITEM : RED_MUSHROOM_BLOCK : 16 : 0'
+  '15':
+  - 'ITEM : WET_SPONGE : 64 : 0'
+  - 'ENTITY : SHULKER : 3'
+  '16':
+  - 'SPECIAL : PIG : 17'
+  - 'LUCKY_BLOCK_ITEM : BROWN : 2'
+  '17':
+  - 'ITEM : DARK_OAK_SHELF : 64 : 0'
+  - 'ENTITY : ACACIA_BOAT : 2'
+  '18':
+  - 'ITEM : WHITE_CONCRETE_POWDER : 16 : 0'
+  - 'ITEM : BOW : 1 : 0'
+  '19':
+  - 'ITEM : IRON_NUGGET : 27 : 0'
+  '20':
+  - 'ENTITY : PANDA : 1'
+  - 'ITEM : PURPLE_STAINED_GLASS_PANE : 64 : 0'
+  - 'ITEM : BARRIER : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  '21':
+  - 'ENTITY : PAINTING : 4'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 1'
+  '22':
+  - 'ITEM : PINK_CONCRETE_POWDER : 64 : 0'
+  '23':
+  - 'ITEM : AMETHYST_SHARD : 54 : 0'
+  - 'LUCKY_BLOCK_ITEM : BLUE : 3'
+  '24':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 3'
+  - 'ENTITY : PARCHED : 1'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : RED_SANDSTONE_SLAB : 16 : 0'
+  '25':
+  - 'ITEM : DARK_OAK_HANGING_SIGN : 8 : 0'
+  - 'ENTITY : LINGERING_POTION : 3'
+  '26':
+  - 'ENTITY : OMINOUS_ITEM_SPAWNER : 3'
+  - 'ITEM : CARVED_PUMPKIN : 8 : 0'
+  - 'ENTITY : SHEEP : 2'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  '27':
+  - 'ENTITY : COMMAND_BLOCK_MINECART : 2'
+  - 'ITEM : BLACK_HARNESS : 1 : 0'
+  - 'ENTITY : CAVE_SPIDER : 3'
+  '28':
+  - 'LUCKY_BLOCK_ITEM : MAGENTA : 4'
+  - 'ITEM : SULFUR_WALL : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 4'
+  - 'ENTITY : RABBIT : 1'
+  '29':
+  - 'ITEM : SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE : 7 : 0'
+  - 'ENTITY : CHEST_MINECART : 3'
+  - 'LUCKY_BLOCK_ITEM : PINK : 1'
+  '30':
+  - 'ITEM : WARPED_DOOR : 16 : 0'
+  - 'ITEM : BAMBOO_FENCE : 32 : 0'
+  - 'ITEM : POLISHED_DIORITE_SLAB : 16 : 0'
+  '31':
+  - 'ITEM : COPPER_HORSE_ARMOR : 1 : 0'
+  - 'ITEM : SHORT_DRY_GRASS : 16 : 0'
+  '32':
+  - 'ITEM : GRAY_WOOL : 32 : 0'
+  - 'ENTITY : CHEST_MINECART : 4'
+  '33':
+  - 'ITEM : MANGROVE_PLANKS : 32 : 0'
+  - 'ENTITY : TNT : 1'
+  '34':
+  - 'ITEM : MANGROVE_FENCE : 8 : 0'
+  '35':
+  - 'ITEM : SPRUCE_LEAVES : 32 : 0'
+  - 'ITEM : SKELETON_SKULL : 16 : 0'
+  '36':
+  - 'ENTITY : TEXT_DISPLAY : 3'
+  - 'ITEM : BREEZE_SPAWN_EGG : 39 : 0'
+  - 'ENTITY : SQUID : 3'
+  - 'ITEM : WAXED_WEATHERED_COPPER_CHAIN : 64 : 0'
+  '37':
+  - 'ITEM : BLACK_BED : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : WHITE : 3'
+  '38':
+  - 'ITEM : BEETROOT_SOUP : 1 : 0'
+  - 'ENTITY : JUNGLE_BOAT : 4'
+  '39':
+  - 'LUCKY_BLOCK_ITEM : ICED : 3'
+  - 'ITEM : GOLDEN_NAUTILUS_ARMOR : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 3'
+  '40':
+  - 'ITEM : WAXED_CHISELED_COPPER : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  - 'ENTITY : ZOMBIE_HORSE : 3'
+  - 'ITEM : STRUCTURE_VOID : 8 : 0'
+  '41':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '42':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ENTITY : PALE_OAK_CHEST_BOAT : 4'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+eco: true

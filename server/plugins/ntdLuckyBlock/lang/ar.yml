@@ -1,0 +1,71 @@
+# Translation configuration author
+author: MrMDX
+
+special:
+  water_bucket: '&eانظر الى المخزون الخاص بك.. لديك دلو ماء&f!'
+
+custom_items:
+  item_not_found: "&cلم يتم العثور على عنصر للمعرف %identifier%"
+  list: "&7[&eLuckyBlock&7] &f:قائمة العناصر المخصصة"
+  magic_wool: "&6&l&oصوف سحري"
+  sword_of_justice: "&6&l&oسيف العدالة"
+  axe_of_perun: "&6&l&oفأس بيرون"
+  chilly_pants: "&6&l&oسروال رائع"
+  rage_armor: "&6&l&oدرع الغضب"
+  carrot_corrupter: "&6&l&oمفسد الجزر"
+  mystery_meat: "&6&l&oلحم غامض"
+
+craft:
+  allowed_one_layer: "&cالصناعة ممكنة فقط باستخدام كل مكون مره واحده لكل مكان مخصص فقط"
+
+system:
+  loading_config: '&fجاري تحديث الاعدادات...'
+  reloaded_config: '&aتم تحديث الاعدادات,تم تحديث %amount% من انواع اللاكي بلوك'
+  lb_not_found: '&cبلوكات الحظ &e%lb%&c لم يتم العثور عليه, تم تجاهله... '
+  lb_loading_exception: '&cبلوكات الحظ &e%lb%&c لا يمكن تحميله... خطأ: &e%exception%'
+  lb_unknown_exception: '&cبلوكات الحظ &e%lb%&c لم يتم العثور عليه او حدث خطأ غير معروف, تم تجاهله... '
+  lb_loaded_zero: '&fتم تحميل 0 من انواع اللاكي بلوك... همم...'
+  lb_loaded_not_zero: '&fتم تحميل &e%amount%&f من انواع اللاكي بلوك...'
+  cant_use_command: '&cعذرا, لكنك لا تستطيع استخدام اي اوامر .'
+  cant_use_subcommand: '&cعذرا, لكنك لا تستطيع استخدام هذا الامر .'
+  cant_break_color: '&cعذرا, لكنك لا تستطيع كسر لاكي بلوك من نوع &e%lb%'
+  cant_interact_world: "&cعذرا, لكنك لا تستطيع التفاعل مع بلوكات الحظ في العالم &e%world%"
+  cmd_lb_disabled: '&cنوع بلوكات الحظ &e%lb%&c معطل :('
+  cmd_lb_not_found: '&cنوع بلوكات الحظ &e%lb%&c غير موجود :('
+  cmd_lb_received: '&aتم استلام %amount% من بلوكات الحظ &7(%lb% &7لون)'
+  cmd_lb_give: '&a%amount% من بلوكات الحظ تم اعطائها &7(%lb% &7لون)'
+  world_not_found: "&cالعالم %world% غير موجود"
+  lb_placed: "&fتم وضع بلوكات الحظ &e%type%&f على &e%location%"
+  
+  cmd:
+    help_title: '&eLuckyBlock''s &fارشاد للاوامر:'
+    get: '&8 > &e/%label% get <اللون> [العدد] &f- احصل على لاكي بلوك'
+    give: '&8 > &e/%label% give <اللاعب> <اللون> [العدد] &f- اعطي لاكي بلوك'
+    gui: '&8 > &e/%label% gui <get/edit> &f- فتج القائمة'
+    list: '&8 > &e/%label% list &f- قائمة لكل انواع اللاكي بلوك'
+    reload: '&8 > &e/%label% reload &f- اعادة تحميل الاعدادات'
+    checkforupdates: '&8 > &e/%label% checkforupdates &f- تحقق من اي تحديثات'
+    support: '&8 > &e/%label% support &f- احصل على مساعدة من مطور البلوقن'
+    iteminfo: "&8 > &6/%label% iteminfo &f- معلومات العنصر في يدك"
+    customitemget: "&8 > &6/%label% customitemget <id> &f- احصل على عنصر مخصص"
+    customitemslist: "&8 > &6/%label% customitemslist &f- قائمة بالعناصر المخصصة"
+    generate: "&8 > &e/%label% generate <type> <factory> <min> <max> &f- انشاء اشياء تسقط"
+    place: "&8 > &e/%label% place [world] <x> <y> <z> <type> &f- وضع لاكي بلوك"
+    generateFull: "بهذا الامر يمكنك انشاء اشياء تسقط من لاكي بلوك. <type> - نوع بلوكات الحظ الذي سيتم انشاؤه. <factory> - مصنع بلوكات الحظ (استخدم `latest`). <min> - الحد الادنى للانشاء. <max> - الحد الاقصى للانشاء"
+  cmd_player_not_found: '&cاللاعب &e%player%&c غير موجود :('
+  cmd_no_perm_to_color: '&cليس لديك صلاحية للون %lb%'
+
+gui:
+  exit: '&7[ &6الخروج من القائمة´s&7]'
+  get:
+    title: '&bالحصول على لاكي بلوك &4&l:D'
+    no_money: '&cتحتاج الى &e%eco% &cاكثر مال للحصول على هذا اللاكي بلوك'
+    success: '&aلقد اشتريت بنجاح &e%amount% &a´من بلوكات الحظ بسعر &e%eco%.'
+  count:
+    get: '&fخدد المبلغ: &6%amount%'
+    give: '&fانت ستدفع: &c%price%'
+    title: '&bحدد المبلغ &4&l:D'
+    remove: '&bاحذف %offset%'
+    add: '&bاضف %offset%'
+    back: '&3الرجوع'
+    confirm: '&eالتاكيد'

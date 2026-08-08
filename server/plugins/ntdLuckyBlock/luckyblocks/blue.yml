@@ -1,0 +1,118 @@
+texture: 8534b17d2d3b5a64c57f5f080dd777945761d9f71d82e8f599f242976e4d0c05
+name: '&1Blue LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ITEM : BAMBOO_CHEST_RAFT : 1 : 0'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ENTITY : FOX : 2'
+  - 'ITEM : MANGROVE_TRAPDOOR : 64 : 0'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 3'
+  '2':
+  - 'ITEM : FIREFLY_BUSH : 16 : 0'
+  - 'ENTITY : SPAWNER_MINECART : 2'
+  - 'ENTITY : TNT_MINECART : 2'
+  '3':
+  - 'ITEM : PALE_OAK_LEAVES : 16 : 0'
+  - 'ITEM : SOUL_SAND : 64 : 0'
+  - 'ITEM : BUSH : 16 : 0'
+  '4':
+  - 'ENTITY : ENDERMITE : 4'
+  - 'ENTITY : EXPERIENCE_ORB : 4'
+  - 'ENTITY : MANGROVE_CHEST_BOAT : 2'
+  '5':
+  - 'ENTITY : BREEZE_WIND_CHARGE : 2'
+  - 'ITEM : COPPER_NAUTILUS_ARMOR : 1 : 0'
+  - 'ITEM : WHITE_BUNDLE : 1 : 0'
+  '6':
+  - 'ENTITY : STRIDER : 4'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'LUCKY_BLOCK_ITEM : GREEN : 3'
+  '7':
+  - 'ENTITY : TURTLE : 1'
+  - 'ITEM : ORANGE_CONCRETE_POWDER : 8 : 0'
+  '8':
+  - 'ITEM : JUNGLE_TRAPDOOR : 8 : 0'
+  '9':
+  - 'ITEM : CHISELED_BOOKSHELF : 8 : 0'
+  - 'ENTITY : MANGROVE_BOAT : 2'
+  - 'ITEM : NETHERITE_INGOT : 35 : 0'
+  '10':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : RABBIT_FOOT : 62 : 0'
+  - 'ITEM : POLISHED_BLACKSTONE_BRICK_WALL : 8 : 0'
+  '11':
+  - 'ENTITY : ENDER_PEARL : 4'
+  '12':
+  - 'ENTITY : DARK_OAK_CHEST_BOAT : 3'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 1'
+  '13':
+  - 'ITEM : CARROT_ON_A_STICK : 1 : 0'
+  - 'ENTITY : RABBIT : 3'
+  '14':
+  - 'ENTITY : PILLAGER : 4'
+  - 'ENTITY : WITHER_SKULL : 2'
+  '15':
+  - 'ENTITY : WITHER_SKELETON : 4'
+  - 'ITEM : SNOW_GOLEM_SPAWN_EGG : 25 : 0'
+  '16':
+  - 'ENTITY : OAK_BOAT : 2'
+  - 'ITEM : CRIMSON_HANGING_SIGN : 16 : 0'
+  - 'ENTITY : HOPPER_MINECART : 4'
+  - 'ITEM : NETHER_BRICK_FENCE : 32 : 0'
+  '17':
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  - 'ENTITY : ITEM_FRAME : 2'
+  '18':
+  - 'ITEM : IRON_NAUTILUS_ARMOR : 1 : 0'
+  - 'ITEM : SEAGRASS : 64 : 0'
+  '19':
+  - 'ENTITY : SKELETON_HORSE : 2'
+  - 'SPECIAL : PIG : 4'
+  '20':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  '21':
+  - 'ENTITY : CHICKEN : 4'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : SKULL_POTTERY_SHERD : 23 : 0'
+  '22':
+  - 'SPECIAL : PIG : 4'
+  '23':
+  - 'ITEM : STRIDER_SPAWN_EGG : 20 : 0'
+  '24':
+  - 'ENTITY : HOGLIN : 1'
+  - 'ENTITY : MULE : 3'
+  '25':
+  - 'ENTITY : MANGROVE_CHEST_BOAT : 1'
+  - 'LUCKY_BLOCK_ITEM : BLACK : 2'
+  - 'ENTITY : SALMON : 1'
+  - 'LUCKY_BLOCK_ITEM : WHITE : 2'
+  '26':
+  - 'ENTITY : WITCH : 2'
+  - 'ENTITY : MULE : 1'
+  '27':
+  - 'ENTITY : CAVE_SPIDER : 4'
+  - 'ITEM : BARREL : 32 : 0'
+  - 'ITEM : CHERRY_WOOD : 32 : 0'
+  - 'ENTITY : GHAST : 3'
+  '28':
+  - 'ENTITY : CAT : 3'
+  '29':
+  - 'ITEM : HAY_BLOCK : 64 : 0'
+  - 'ENTITY : DARK_OAK_BOAT : 1'
+  '30':
+  - 'ITEM : PUFFERFISH : 54 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ITEM : BROWN_STAINED_GLASS : 32 : 0'
+  '31':
+  - 'SPECIAL : LIGHTNING : 3'
+eco: true

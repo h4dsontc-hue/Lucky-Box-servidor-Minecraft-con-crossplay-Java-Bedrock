@@ -1,0 +1,168 @@
+texture: 65fed46b39c6c34d491143b72ce728797d16f9b5aa40bbdec61667f5ff9d3d45
+name: '&bLight blue LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : ACACIA_CHEST_BOAT : 4'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  '1':
+  - 'ENTITY : MANGROVE_BOAT : 1'
+  - 'ITEM : CRACKED_DEEPSLATE_TILES : 8 : 0'
+  - 'ITEM : POLISHED_BLACKSTONE_PRESSURE_PLATE : 16 : 0'
+  '2':
+  - 'ITEM : DIAMOND_BOOTS : 1 : 0'
+  '3':
+  - 'ITEM : PETRIFIED_OAK_SLAB : 64 : 0'
+  - 'ITEM : POLAR_BEAR_SPAWN_EGG : 12 : 0'
+  '4':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '5':
+  - 'ITEM : DARK_OAK_BUTTON : 64 : 0'
+  - 'ITEM : WAXED_OXIDIZED_COPPER_BULB : 8 : 0'
+  '6':
+  - 'ITEM : GREEN_BUNDLE : 1 : 0'
+  - 'ITEM : COPPER_LANTERN : 64 : 0'
+  '7':
+  - 'ITEM : DARK_OAK_FENCE : 32 : 0'
+  - 'ITEM : COPPER_SHOVEL : 1 : 0'
+  '8':
+  - 'ITEM : MANGROVE_TRAPDOOR : 8 : 0'
+  - 'ITEM : STRIPPED_PALE_OAK_LOG : 64 : 0'
+  '9':
+  - 'ITEM : DEEPSLATE_EMERALD_ORE : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  - 'ENTITY : ITEM : 1'
+  '10':
+  - 'ITEM : WAXED_WEATHERED_COPPER_BULB : 16 : 0'
+  - 'ITEM : WAXED_COPPER_BLOCK : 8 : 0'
+  '11':
+  - 'ITEM : RED_WOOL : 64 : 0'
+  - 'LUCKY_BLOCK_ITEM : LIGHT_BLUE : 4'
+  '12':
+  - 'ITEM : MANGROVE_TRAPDOOR : 16 : 0'
+  - 'ITEM : GOLDEN_LEGGINGS : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : ICED : 2'
+  '13':
+  - 'ENTITY : LLAMA_SPIT : 4'
+  - 'ITEM : LILY_OF_THE_VALLEY : 8 : 0'
+  '14':
+  - 'ENTITY : WITCH : 1'
+  - 'ITEM : WAXED_EXPOSED_CUT_COPPER : 64 : 0'
+  '15':
+  - 'ITEM : RED_SANDSTONE_SLAB : 64 : 0'
+  '16':
+  - 'ITEM : GLOW_BERRIES : 13 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ENTITY : ARMOR_STAND : 3'
+  '17':
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'ITEM : GRAY_BED : 1 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '18':
+  - 'ENTITY : COW : 4'
+  - 'ITEM : WOODEN_SHOVEL : 1 : 0'
+  - 'ITEM : STONE_BRICK_SLAB : 64 : 0'
+  - 'ENTITY : HUSK : 2'
+  '19':
+  - 'ENTITY : CAMEL_HUSK : 2'
+  - 'ITEM : PUMPKIN_SEEDS : 41 : 0'
+  '20':
+  - 'ITEM : TEST_INSTANCE_BLOCK : 8 : 0'
+  '21':
+  - 'LUCKY_BLOCK_ITEM : ICED : 2'
+  - 'ENTITY : ITEM_FRAME : 3'
+  '22':
+  - 'ITEM : CHAINMAIL_HELMET : 1 : 0'
+  - 'SPECIAL : PIG : 4'
+  - 'ENTITY : ACACIA_CHEST_BOAT : 4'
+  '23':
+  - 'ENTITY : MANGROVE_BOAT : 1'
+  - 'ITEM : ACACIA_HANGING_SIGN : 8 : 0'
+  - 'ITEM : NETHERRACK : 8 : 0'
+  '24':
+  - 'ENTITY : CREAKING : 3'
+  '25':
+  - 'ITEM : OAK_WOOD : 16 : 0'
+  - 'ENTITY : CAT : 4'
+  '26':
+  - 'ITEM : POPPY : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 1'
+  '27':
+  - 'ITEM : BEEHIVE : 8 : 0'
+  '28':
+  - 'ENTITY : CHERRY_BOAT : 1'
+  - 'ITEM : VINE : 16 : 0'
+  - 'ITEM : STONE_HOE : 1 : 0'
+  '29':
+  - 'ITEM : EXPOSED_CUT_COPPER_SLAB : 16 : 0'
+  - 'ENTITY : ZOGLIN : 4'
+  - 'ENTITY : SPAWNER_MINECART : 3'
+  '30':
+  - 'ITEM : COOKED_BEEF : 34 : 0'
+  - 'ENTITY : EXPERIENCE_BOTTLE : 2'
+  - 'ITEM : BROWN_MUSHROOM_BLOCK : 32 : 0'
+  - 'ITEM : CRAFTING_TABLE : 32 : 0'
+  '31':
+  - 'ITEM : WHITE_TERRACOTTA : 64 : 0'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'ENTITY : GLOW_SQUID : 1'
+  '32':
+  - 'ENTITY : BIRCH_CHEST_BOAT : 3'
+  - 'ENTITY : PAINTING : 3'
+  - 'ITEM : ORANGE_SHULKER_BOX : 1 : 0'
+  '33':
+  - 'ITEM : PINK_CONCRETE_POWDER : 32 : 0'
+  '34':
+  - 'LUCKY_BLOCK_ITEM : LIGHT_GRAY : 1'
+  - 'ITEM : JUKEBOX : 8 : 0'
+  '35':
+  - 'ITEM : OPEN_EYEBLOSSOM : 64 : 0'
+  - 'ENTITY : ITEM_DISPLAY : 2'
+  - 'ITEM : REPEATING_COMMAND_BLOCK : 32 : 0'
+  '36':
+  - 'ITEM : PURPLE_BED : 1 : 0'
+  - 'ENTITY : TROPICAL_FISH : 1'
+  '37':
+  - 'ITEM : BIRCH_TRAPDOOR : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : RED : 3'
+  - 'ITEM : GOAT_SPAWN_EGG : 8 : 0'
+  '38':
+  - 'ITEM : LIGHT_GRAY_BED : 1 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '39':
+  - 'ITEM : GRAY_WOOL : 32 : 0'
+  - 'SPECIAL : PIG : 13'
+  '40':
+  - 'ITEM : BLUE_CANDLE : 64 : 0'
+  - 'ENTITY : CAVE_SPIDER : 2'
+  '41':
+  - 'ITEM : STONE_HOE : 1 : 0'
+  - 'ITEM : SILVERFISH_SPAWN_EGG : 13 : 0'
+  - 'ITEM : FEATHER : 42 : 0'
+  '42':
+  - 'ENTITY : GUARDIAN : 3'
+  - 'ENTITY : SPIDER : 2'
+  '43':
+  - 'ENTITY : PARCHED : 3'
+  - 'ITEM : GRAY_DYE : 44 : 0'
+  - 'ITEM : WHITE_STAINED_GLASS_PANE : 8 : 0'
+  '44':
+  - 'ITEM : CRAFTING_TABLE : 16 : 0'
+  '45':
+  - 'ENTITY : CHERRY_BOAT : 2'
+  '46':
+  - 'ITEM : IRON_SWORD : 1 : 0'
+  - 'ITEM : CHERRY_LEAVES : 64 : 0'
+  '47':
+  - 'ITEM : NETHER_GOLD_ORE : 32 : 0'
+  - 'ENTITY : WITCH : 1'
+  - 'ITEM : WARPED_FENCE_GATE : 32 : 0'
+eco: true

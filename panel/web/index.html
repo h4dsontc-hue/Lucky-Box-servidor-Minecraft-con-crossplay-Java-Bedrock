@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucky Box · panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="cube"></span>
+    <div>
+      <h1>Lucky Box</h1>
+      <p class="sub" id="sub">Paper + Geyser + Floodgate</p>
+    </div>
+  </div>
+
+  <div class="state">
+    <span class="pill" id="state-pill">…</span>
+    <span class="meta" id="state-meta"></span>
+  </div>
+
+  <div class="actions">
+    <button id="btn-start" class="btn good">Arrancar</button>
+    <button id="btn-restart" class="btn">Reiniciar</button>
+    <button id="btn-stop" class="btn warn">Parar</button>
+    <button id="btn-kill" class="btn bad" title="Mata la JVM sin guardar el mundo">Forzar</button>
+  </div>
+</header>
+
+<div id="banner" class="banner hidden"></div>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="consola">Consola</button>
+  <button class="tab" data-tab="estado">Estado</button>
+  <button class="tab" data-tab="jugadores">Jugadores</button>
+  <button class="tab" data-tab="ficheros">Configuración</button>
+  <button class="tab" data-tab="backups">Backups</button>
+</nav>
+
+<main>
+
+  <section class="page active" id="page-consola">
+    <div class="console-tools">
+      <input id="filter" class="input" placeholder="filtrar líneas (ej: ERROR, Geyser, luckyblock)">
+      <label class="check"><input type="checkbox" id="autoscroll" checked> seguir el final</label>
+      <span class="grow"></span>
+      <span class="meta" id="console-meta">conectando…</span>
+    </div>
+    <div id="console" class="console" aria-live="polite"></div>
+    <form id="cmd-form" class="cmd">
+      <span class="prompt">&gt;</span>
+      <input id="cmd" class="input mono" placeholder="comando de consola sin barra: list, lb give Papa red 10, tps…" autocomplete="off">
+      <button class="btn good" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section class="page" id="page-estado">
+    <div class="cards" id="cards"></div>
+    <div class="two">
+      <div class="card wide">
+        <h3>Java <span class="tag" id="java-addr"></span></h3>
+        <div id="java-box" class="kv">…</div>
+      </div>
+      <div class="card wide">
+        <h3>Bedrock <span class="tag" id="bedrock-addr"></span></h3>
+        <div id="bedrock-box" class="kv">…</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="page-jugadores">
+    <div class="card wide">
+      <h3>Conectados ahora <span class="tag" id="online-count">0</span></h3>
+      <div id="online-list" class="list">nadie conectado</div>
+    </div>
+
+    <div class="card wide">
+      <h3>Acción manual</h3>
+      <div class="row">
+        <input id="pl-name" class="input" list="known-players" placeholder="nombre del jugador">
+        <datalist id="known-players"></datalist>
+        <input id="pl-reason" class="input" placeholder="motivo (opcional, para kick y ban)">
+        <select id="pl-action" class="input">
+          <option value="op">dar op</option>
+          <option value="deop">quitar op</option>
+          <option value="kick">expulsar</option>
+          <option value="ban">banear</option>
+          <option value="pardon">quitar ban</option>
+          <option value="whitelist-add">añadir a whitelist</option>
+          <option value="whitelist-remove">quitar de whitelist</option>
+        </select>
+        <button id="pl-run" class="btn good">Aplicar</button>
+      </div>
+      <p class="note" id="players-mode"></p>
+    </div>
+
+    <div class="two">
+      <div class="card">
+        <h3>Operadores</h3>
+        <div id="ops-list" class="list"></div>
+      </div>
+      <div class="card">
+        <h3>Whitelist
+          <label class="check right"><input type="checkbox" id="wl-toggle"> activada</label>
+        </h3>
+        <div id="wl-list" class="list"></div>
+      </div>
+    </div>
+    <div class="card wide">
+      <h3>Baneados</h3>
+      <div id="bans-list" class="list"></div>
+    </div>
+  </section>
+
+  <section class="page" id="page-ficheros">
+    <div class="editor">
+      <aside class="filelist" id="filelist"></aside>
+      <div class="editpane">
+        <div class="row">
+          <strong id="edit-path" class="mono">elige un fichero de la izquierda</strong>
+          <span class="grow"></span>
+          <button id="btn-save" class="btn good" disabled>Guardar</button>
+        </div>
+        <textarea id="editor" class="code" spellcheck="false" disabled></textarea>
+        <p class="note">Paper lee la configuración al arrancar: los cambios se aplican al reiniciar. Se guarda una copia <code>.bak</code> del contenido anterior.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page" id="page-backups">
+    <div class="card wide">
+      <h3>Copia del mundo</h3>
+      <p class="note">Con el servidor arriba se hace <code>save-off</code> → <code>save-all flush</code> → tar.gz → <code>save-on</code>, para no copiar un mundo a medio escribir.</p>
+      <div class="row">
+        <button id="btn-backup" class="btn good">Crear backup ahora</button>
+        <span class="meta" id="backup-state"></span>
+      </div>
+    </div>
+    <div class="card wide">
+      <h3>Backups guardados <span class="tag" id="backup-disk"></span></h3>
+      <div id="backup-list" class="list"></div>
+    </div>
+  </section>
+
+</main>
+
+<div id="toasts" class="toasts"></div>
+<script src="app.js"></script>
+</body>
+</html>

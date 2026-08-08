@@ -1,0 +1,39 @@
+# Secreto compartido de Floodgate: NUNCA subir
+server/plugins/floodgate/key.pem
+server/logs/
+server/cache/
+server/libraries/
+server/versions/
+server/world*/
+server/*.log
+server/paper.jar
+server/plugins/*.jar
+
+# Datos de jugadores: la copia buena vive en el VPS. deploy.sh se niega a
+# pisarlos justamente por eso, asi que tampoco tienen sitio en el repo (y
+# ademas llevan nombres y UUIDs de gente real).
+server/ops.json
+server/banned-players.json
+server/banned-ips.json
+server/whitelist.json
+server/usercache.json
+
+# Estado y caches que los plugins regeneran solos al arrancar. Sin esto el
+# repo se lleva ~1.3 MB de locales de Geyser, skins por defecto, un .so
+# temporal de spark y el historial de comandos de la consola.
+server/.paper/
+server/plugins/*/cache/
+server/plugins/Geyser-Spigot/locales/
+server/plugins/FastAsyncWorldEdit/lang/
+server/plugins/spark/tmp/
+# serverUuid identifica a ESTA instancia en bStats; se regenera
+server/plugins/bStats/
+
+# Binario del panel: se compila desde ./panel en cada despliegue
+panel/panel
+
+# Copias que deja el editor de configuracion del panel al guardar
+*.bak
+
+# Backups del mundo: son datos y pesan, no van al repo
+backups/

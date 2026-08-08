@@ -1,0 +1,117 @@
+texture: c133414759f9e5315156017023a8b1b31cfbf177dcafb0603b8e9d94036a23f1
+name: '&cBrown LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : JUNGLE_BOAT : 1'
+  '1':
+  - 'ITEM : DRAGON_EGG : 8 : 0'
+  '2':
+  - 'ENTITY : SPLASH_POTION : 4'
+  - 'ENTITY : BAMBOO_CHEST_RAFT : 2'
+  - 'SPECIAL : PIG : 4'
+  '3':
+  - 'ENTITY : IRON_GOLEM : 3'
+  - 'ITEM : STRIPPED_BIRCH_LOG : 16 : 0'
+  - 'ITEM : ACACIA_BOAT : 1 : 0'
+  '4':
+  - 'ITEM : LIME_TERRACOTTA : 16 : 0'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 4'
+  - 'ENTITY : ELDER_GUARDIAN : 1'
+  '5':
+  - 'ENTITY : WITHER_SKELETON : 4'
+  - 'ITEM : JUNGLE_BOAT : 1 : 0'
+  - 'ITEM : ELDER_GUARDIAN_SPAWN_EGG : 38 : 0'
+  - 'ITEM : TERRACOTTA : 8 : 0'
+  '6':
+  - 'ITEM : KNOWLEDGE_BOOK : 1 : 0'
+  - 'ENTITY : WANDERING_TRADER : 3'
+  - 'ITEM : FLOWER_POT : 64 : 0'
+  - 'ENTITY : VINDICATOR : 4'
+  '7':
+  - 'ITEM : WAXED_WEATHERED_CHISELED_COPPER : 32 : 0'
+  - 'ITEM : MAGENTA_CANDLE : 16 : 0'
+  '8':
+  - 'ITEM : MAGENTA_GLAZED_TERRACOTTA : 8 : 0'
+  - 'ENTITY : DARK_OAK_CHEST_BOAT : 3'
+  - 'ITEM : FROG_SPAWN_EGG : 29 : 0'
+  '9':
+  - 'ITEM : MOSS_BLOCK : 8 : 0'
+  - 'ITEM : MAGENTA_STAINED_GLASS_PANE : 64 : 0'
+  - 'ITEM : COPPER_HOE : 1 : 0'
+  '10':
+  - 'ITEM : OCHRE_FROGLIGHT : 16 : 0'
+  - 'ENTITY : FURNACE_MINECART : 1'
+  '11':
+  - 'ITEM : BLACK_STAINED_GLASS : 8 : 0'
+  '12':
+  - 'ITEM : BRICKS : 16 : 0'
+  - 'ENTITY : SPRUCE_CHEST_BOAT : 2'
+  - 'ENTITY : ACACIA_CHEST_BOAT : 2'
+  '13':
+  - 'ITEM : OAK_FENCE : 64 : 0'
+  - 'ITEM : NETHERITE_SPEAR : 1 : 0'
+  '14':
+  - 'ITEM : PINK_BED : 1 : 0'
+  - 'ENTITY : ACACIA_BOAT : 1'
+  - 'ITEM : DIAMOND_LEGGINGS : 1 : 0'
+  - 'ENTITY : PUFFERFISH : 4'
+  '15':
+  - 'ITEM : OCELOT_SPAWN_EGG : 17 : 0'
+  - 'ITEM : DARK_OAK_SIGN : 8 : 0'
+  - 'ENTITY : ZOMBIE : 1'
+  '16':
+  - 'ITEM : BIRCH_PLANKS : 8 : 0'
+  - 'ENTITY : ACACIA_CHEST_BOAT : 2'
+  '17':
+  - 'ENTITY : ILLUSIONER : 4'
+  '18':
+  - 'ITEM : COPPER_BOOTS : 1 : 0'
+  - 'ENTITY : BEE : 2'
+  - 'ITEM : WAXED_EXPOSED_COPPER : 16 : 0'
+  '19':
+  - 'ITEM : CRACKED_DEEPSLATE_TILES : 8 : 0'
+  - 'ITEM : POLISHED_DIORITE : 8 : 0'
+  '20':
+  - 'ENTITY : HAPPY_GHAST : 2'
+  '21':
+  - 'ITEM : CHAINMAIL_HELMET : 1 : 0'
+  '22':
+  - 'ITEM : MELON_SLICE : 35 : 0'
+  - 'ENTITY : CAMEL : 1'
+  '23':
+  - 'ITEM : TROPICAL_FISH_BUCKET : 1 : 0'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 2'
+  - 'ENTITY : COW : 4'
+  '24':
+  - 'ITEM : STRIPPED_ACACIA_WOOD : 8 : 0'
+  - 'ENTITY : VINDICATOR : 3'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '25':
+  - 'ITEM : BLAZE_POWDER : 37 : 0'
+  '26':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '27':
+  - 'ENTITY : TRIDENT : 2'
+  - 'ENTITY : ARROW : 4'
+  '28':
+  - 'SPECIAL : LIGHTNING : 3'
+  '29':
+  - 'ITEM : WAXED_WEATHERED_COPPER_CHAIN : 32 : 0'
+  - 'LUCKY_BLOCK_ITEM : CYAN : 3'
+  - 'ITEM : EXPERIENCE_BOTTLE : 14 : 0'
+  '30':
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  - 'ITEM : GOAT_SPAWN_EGG : 6 : 0'
+  '31':
+  - 'ITEM : WAXED_WEATHERED_CUT_COPPER : 16 : 0'
+  - 'ITEM : SMOOTH_QUARTZ_SLAB : 16 : 0'
+eco: true

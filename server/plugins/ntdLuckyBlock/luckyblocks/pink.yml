@@ -1,0 +1,123 @@
+texture: 11a367164bc6852c8f078811de7baacaefd6964960ebff1fa504c7b4b1298a52
+name: '&dPink LuckyBlock'
+lore:
+- '&7Place me :D'
+shop: true
+price: 250
+animation: true
+animation_type: MOBSPAWNER_FLAMES
+craft:
+  default: true
+  custom: false
+drop:
+  '0':
+  - 'ENTITY : MANNEQUIN : 4'
+  '1':
+  - 'LUCKY_BLOCK_ITEM : RED : 4'
+  '2':
+  - 'ITEM : GREEN_BANNER : 16 : 0'
+  - 'ENTITY : ACACIA_BOAT : 2'
+  '3':
+  - 'SPECIAL : TNT_COLUMN : 5'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 3'
+  '4':
+  - 'ITEM : WHITE_GLAZED_TERRACOTTA : 8 : 0'
+  - 'ITEM : DEEPSLATE_IRON_ORE : 8 : 0'
+  - 'ENTITY : INTERACTION : 3'
+  '5':
+  - 'ENTITY : ZOMBIE_VILLAGER : 2'
+  - 'SPECIAL : LIGHTNING : 3'
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 2'
+  '6':
+  - 'LUCKY_BLOCK_ITEM : BLUE : 4'
+  - 'ITEM : CHERRY_PRESSURE_PLATE : 32 : 0'
+  - 'ENTITY : TURTLE : 2'
+  '7':
+  - 'ITEM : RED_MUSHROOM_BLOCK : 8 : 0'
+  - 'ENTITY : HOPPER_MINECART : 4'
+  '8':
+  - 'ENTITY : SPECTRAL_ARROW : 4'
+  - 'ITEM : GOLD_ORE : 64 : 0'
+  '9':
+  - 'ITEM : SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE : 60 : 0'
+  - 'ITEM : ANDESITE : 64 : 0'
+  '10':
+  - 'ITEM : OBSERVER : 8 : 0'
+  '11':
+  - 'ENTITY : SULFUR_CUBE : 1'
+  - 'ITEM : VEX_ARMOR_TRIM_SMITHING_TEMPLATE : 11 : 0'
+  - 'ITEM : NETHERITE_BOOTS : 1 : 0'
+  - 'ITEM : SLIME_SPAWN_EGG : 44 : 0'
+  '12':
+  - 'ENTITY : VINDICATOR : 3'
+  - 'SPECIAL : TNT_COLUMN : 5'
+  '13':
+  - 'ENTITY : CHICKEN : 4'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ITEM : VEX_SPAWN_EGG : 21 : 0'
+  '14':
+  - 'ITEM : WAXED_OXIDIZED_COPPER_GRATE : 16 : 0'
+  '15':
+  - 'ITEM : INFESTED_STONE_BRICKS : 64 : 0'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '16':
+  - 'ITEM : COPPER_BOOTS : 1 : 0'
+  - 'ENTITY : CHERRY_CHEST_BOAT : 3'
+  '17':
+  - 'ENTITY : CHICKEN : 2'
+  - 'SPECIAL : TNT_EXPLOSION : 20'
+  '18':
+  - 'ENTITY : ARMADILLO : 1'
+  '19':
+  - 'ITEM : END_STONE_BRICKS : 8 : 0'
+  - 'ITEM : MAGMA_CREAM : 19 : 0'
+  - 'ENTITY : HUSK : 1'
+  '20':
+  - 'ITEM : WOLF_ARMOR : 1 : 0'
+  - 'ENTITY : ENDERMITE : 4'
+  '21':
+  - 'ITEM : SMOOTH_SANDSTONE : 8 : 0'
+  - 'ENTITY : SMALL_FIREBALL : 2'
+  '22':
+  - 'ITEM : SEA_LANTERN : 32 : 0'
+  - 'ITEM : NETHER_SPROUTS : 8 : 0'
+  - 'ENTITY : BEE : 3'
+  '23':
+  - 'ITEM : BLACK_TERRACOTTA : 32 : 0'
+  - 'SPECIAL : EXPERIENCE_EXPLOSION : 45'
+  '24':
+  - 'ENTITY : EVOKER : 1'
+  - 'ITEM : POLISHED_BLACKSTONE_BUTTON : 8 : 0'
+  - 'ENTITY : TNT : 2'
+  '25':
+  - 'ITEM : INFESTED_MOSSY_STONE_BRICKS : 16 : 0'
+  '26':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '27':
+  - 'ENTITY : ITEM_FRAME : 3'
+  '28':
+  - 'ENTITY : PUFFERFISH : 4'
+  - 'ENTITY : DOLPHIN : 4'
+  '29':
+  - 'ITEM : PRISMARINE_BRICKS : 8 : 0'
+  - 'LUCKY_BLOCK_ITEM : GRAY : 2'
+  '30':
+  - 'ITEM : SHEARS : 1 : 0'
+  '31':
+  - 'ENTITY : ALLAY : 1'
+  - 'SPECIAL : WATER_BUCKET : 64'
+  '32':
+  - 'ITEM : CHARCOAL : 43 : 0'
+  - 'ITEM : DRIED_KELP : 21 : 0'
+  - 'ENTITY : ITEM_FRAME : 4'
+  '33':
+  - 'SPECIAL : WATER_BUCKET : 64'
+  - 'ENTITY : SPIDER : 3'
+  '34':
+  - 'LUCKY_BLOCK_ITEM : RANDOM : 1'
+  - 'ITEM : COPPER_INGOT : 26 : 0'
+  - 'ITEM : WARPED_HYPHAE : 8 : 0'
+  - 'ITEM : PRISMARINE_BRICKS : 8 : 0'
+  '35':
+  - 'ITEM : CRIMSON_FENCE_GATE : 32 : 0'
+eco: true

@@ -1,0 +1,53 @@
+[Unit]
+Description=Lucky Box - Panel y servidor Minecraft (Paper + Geyser + Floodgate)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=minecraft
+Group=minecraft
+WorkingDirectory=/opt/lukybox
+
+# Arranca el panel, no start.sh directamente: el panel es quien lanza
+# server/start.sh como proceso hijo y se queda con su stdin, que es lo que le
+# permite mandar comandos a Paper sin habilitar RCON y pararlo con "stop" para
+# que guarde el mundo. Desde /opt/lukybox encuentra server/start.sh solo, y
+# deja los backups en /opt/lukybox/backups.
+#
+# -autostart es obligatorio aqui: sin el, el servicio levantaria el panel y
+# Paper se quedaria parado esperando a que alguien pulse "Arrancar".
+# -mirror va activado por defecto, asi que la consola de Paper sigue saliendo
+# en journalctl -u lukybox igual que cuando el servicio era start.sh.
+#
+# -addr 127.0.0.1 a proposito: el panel NO tiene contraseña y quien lo alcance
+# puede parar el servidor y editar la configuracion. Se llega por tunel SSH
+# (ver README), nunca abriendo el puerto en el firewall.
+ExecStart=/opt/lukybox/panel -addr 127.0.0.1:8080 -autostart -mem-min 2G -mem-max 4G
+
+# SIGTERM tiene que llegar SOLO al panel: el se encarga de mandar "stop" a
+# Paper, esperar a que termine de guardar y salir despues. Con el KillMode por
+# defecto (control-group) systemd señalaria tambien a la JVM y las dos paradas
+# competirian entre si.
+KillSignal=SIGTERM
+KillMode=mixed
+
+# Peor caso del apagado ordenado del panel: 90s de gracia tras el "stop" mas
+# 30s tras el SIGTERM (stopGraceTimeout + sigtermTimeout en supervisor.go).
+# El margen tiene que ser mayor que esa suma o systemd mataria al panel con el
+# mundo a medio guardar.
+TimeoutStopSec=150
+
+Restart=on-failure
+RestartSec=10
+
+# Endurecimiento basico: el proceso solo puede escribir en su propio
+# directorio, que incluye server/ y backups/.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/opt/lukybox
+
+[Install]
+WantedBy=multi-user.target
